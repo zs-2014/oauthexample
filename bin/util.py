@@ -20,7 +20,7 @@ def gen_code(appid, userid):
     return uuid.uuid4().hex
 
 #生成accesss_token
-#获取会用到某种算法生成
+#或许可以用到某种算法生成
 def gen_access_token(appid):
     return uuid.uuid4().hex 
 
